@@ -6,4 +6,9 @@ public class Greeter {
 	{
 		return "Hello";
 	}
+	
+	public String greet(String name)
+	{
+		return null;
+	}
 }

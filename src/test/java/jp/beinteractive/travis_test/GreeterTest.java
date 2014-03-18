@@ -28,4 +28,10 @@ public class GreeterTest {
 	{
 		assertThat(greeter.greet(), is("Hello"));
 	}
+	
+	@Test
+	public void testGreetWithName()
+	{
+		assertThat(greeter.greet("Mr.Smith"), is("Hello, Mr.Smith"));
+	}
 }
